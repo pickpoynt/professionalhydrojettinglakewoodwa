@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import SumpPumpInfo from "@/components/landing/SumpPumpInfo";
+import SmokeOdorInfo from "@/components/landing/SmokeOdorInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Sump pump replacement Peoria IL | Peoria Pump Pros: Emergency Flooding Solutions</title>
-        <meta name="description" content="Sump pump replacement Peoria IL. Professional basement waterproofing, battery backup installation, and primary pump replacement. 24/7 emergency flood prevention in Peoria. Call (877) 792-1410 today!" />
-        <meta name="keywords" content="Sump pump replacement Peoria IL, basement flood protection Peoria, battery backup sump pump Peoria, Peoria IL plumbing emergency, submersible pump repair Peoria" />
-        <link rel="canonical" href="https://peoria-sump-pump.com/" />
+        <title>smoke odor removal Nashville | Nashville Air Quality Pros: Professional Deodorization Services</title>
+        <meta name="description" content="smoke odor removal Nashville. Professional wood smoke, cigarette, and fire damage odor elimination. 24/7 expert scent neutralize in Nashville. Call (380) 266-0944 today!" />
+        <meta name="keywords" content="smoke odor removal Nashville, cigarette smell removal Nashville, fire damage restoration Nashville, ozone treatment Nashville, Nashville odor elimination" />
+        <link rel="canonical" href="https://nashville-smoke-odor.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Peoria Pump Pros",
-            "image": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&q=80",
-            "telephone": "+1-877-792-1410",
+            "name": "Nashville Air Quality Pros",
+            "image": "https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80",
+            "telephone": "+1-380-266-0944",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Peoria",
-              "addressRegion": "IL",
-              "postalCode": "61602",
+              "addressLocality": "Nashville",
+              "addressRegion": "TN",
+              "postalCode": "37201",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "40.6936",
-              "longitude": "-89.5890"
+              "latitude": "36.1627",
+              "longitude": "-86.7816"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Peoria, Illinois"
+              "name": "Nashville, Tennessee"
             },
             "priceRange": "$$$",
-            "description": "Professional sump pump replacement and basement waterproofing services in Peoria, IL. We specialize in high-capacity submersible pumps and reliable battery backup systems."
+            "description": "Professional smoke odor removal and air quality restoration services in Nashville, TN. We specialize in molecular-level deodorization for homes, music venues, and commercial spaces."
           })}
         </script>
 
@@ -55,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Sump Pump Replacement",
+            "serviceType": "Smoke Odor Removal",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Peoria Pump Pros",
-              "telephone": "+1-877-792-1410"
+              "name": "Nashville Air Quality Pros",
+              "telephone": "+1-380-266-0944"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Peoria, Illinois"
+              "name": "Nashville, Tennessee"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Sump Pump Services",
+              "name": "Smoke Odor Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Primary Sump Pump Replacement"
+                    "name": "Cigarette Smoke Elimination"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Battery Backup Installation"
+                    "name": "Fire Damage Deodorization"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Basement Flood Protection"
+                    "name": "Hydroxyl & Ozone Treatment"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency Water Removal"
+                    "name": "HVAC System Purification"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Sump pump replacement Peoria IL | Peoria Pump Pros" />
-        <meta property="og:description" content="Professional sump pump replacement in Peoria, IL. 24/7 emergency flood prevention and battery backup solutions. Call (877) 792-1410 for a free estimate." />
+        <meta property="og:title" content="smoke odor removal Nashville | Nashville Air Quality Pros" />
+        <meta property="og:description" content="Professional smoke odor removal in Nashville, TN. 24/7 molecular-level air purification and fire damage restoration. Call (380) 266-0944 for a free estimate." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://peoria-sump-pump.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1542013919164-94427b3fa437?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://nashville-smoke-odor.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,16 +115,16 @@ const Index = () => {
         <Hero
           title={
             <>
-              Sump pump replacement Peoria IL
-              <span className="block text-blue-400 mt-2">Peoria Pump Pros: Your Flood Defense Team</span>
+              smoke odor removal Nashville
+              <span className="block text-blue-400 mt-2">Nashville Air Quality Pros: Breathe Pure Again</span>
             </>
           }
-          subtitle="Don't wait for the next Illinois storm to find out your pump is failing. Our industrial-strength sump pump systems provide relentless protection for your Peoria basement—combining high-torque primary pumps with fail-safe battery backups that keep running even when the power goes out."
-          image="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&q=80"
+          subtitle="Don't live with the lingering scent of smoke. Our molecular-level purification systems target smoke particles embedded in Nashville's historic hardwood, drywall, and upholstery—eradicating odors from cigarettes, fires, and environmental hazards with invisible Nashville precision."
+          image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <SumpPumpInfo />
+        <SmokeOdorInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
@@ -136,6 +136,7 @@ const Index = () => {
 };
 
 export default Index;
+
 
 
 

@@ -1,53 +1,53 @@
-import { Search, Droplets, Shield, Hammer, AlertTriangle, Waves, Activity, Zap, ClipboardList } from "lucide-react";
+import { Wind, Shield, Sparkles, AlertTriangle, Zap, Activity, Filter, Thermometer, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    icon: Zap,
-    title: "Primary Pump Replacement",
-    description: "High-capacity submersible pumps designed for the heavy silt levels found in Peoria soil. Reliable, industrial-grade motor protection.",
-    link: "#sump-pump-info"
+    icon: Thermometer,
+    title: "Thermal Fogging",
+    description: "Neutralizing odors in Nashville cottage insulation and drywall. We use super-heated deodorizers that go exactly where the smoke went.",
+    link: "#smoke-odor-info"
   },
   {
-    icon: Shield,
-    title: "Battery Backup Systems",
-    description: "Protection when the Peoria power grid fails. Our redundant systems pump thousands of gallons on a single charge during storms.",
-    link: "#sump-pump-info"
+    icon: Sparkles,
+    title: "Hydroxyl Neutralization",
+    description: "Molecular air scrubbing that's safe for occupancy. Ideal for Nashville music studios and homes with sensitive electronics.",
+    link: "#smoke-odor-info"
   },
   {
-    icon: AlertTriangle,
-    title: "Emergency Pump Repair",
-    description: "24/7 rapid response for failing sump pumps in the Peoria area. We eliminate rising water before it reaches your finished basement.",
-    link: "#sump-pump-info"
-  },
-  {
-    icon: Waves,
-    title: "Sump Pit Maintenance",
-    description: "Comprehensive cleaning and descaling of your drainage pit to ensure zero mechanical interference with your pump's operation.",
-    link: "#sump-pump-info"
+    icon: Wind,
+    title: "Cigarette Odor Removal",
+    description: "Deep nicotine extraction from walls and ceilings. We eliminate years of yellowing and stale scents with industrial-grade solvents.",
+    link: "#smoke-odor-info"
   },
   {
     icon: Activity,
-    title: "Sewage Ejector Service",
-    description: "Specialized pumps for basement bathrooms and laundry rooms. We install heavy-duty grinders and high-torque ejector units.",
-    link: "#sump-pump-info"
+    title: "HVAC System Fogging",
+    description: "Preventing odor re-circulation. We treat your Nashville home's entire duct network to stop stale scents every time the AC kicks in.",
+    link: "#smoke-odor-info"
   },
   {
-    icon: Droplets,
-    title: "Waterproofing Inspections",
-    description: "Full diagnostic of your Peoria home's drain tile system and foundation to identify potential flooding risks before they occur.",
-    link: "#sump-pump-info"
+    icon: Shield,
+    title: "Ozone Shock Treatment",
+    description: "Unmatched power for severe fire damage. We use high-output ozone generators to shatter carbon molecules in unoccupied spaces.",
+    link: "#smoke-odor-info"
   },
   {
-    icon: Search,
-    title: "Alarm & Wi-Fi Monitoring",
-    description: "Stay informed from anywhere. We install smart sensors that alert your phone if pump levels rise or if power is lost at your Peoria property.",
-    link: "#sump-pump-info"
+    icon: Filter,
+    title: "HEPA Air Scrubbing",
+    description: "Removing the soot you can't see. We pull 99.9% of Nashville's airborne indoor contaminants into medical-grade filtration units.",
+    link: "#smoke-odor-info"
   },
   {
-    icon: ClipboardList,
-    title: "New Home Pump Scans",
-    description: "Peace of mind for Peoria buyers. We certify the status of the basement drainage system before you close on your new Illinois home.",
-    link: "#sump-pump-info"
+    icon: AlertTriangle,
+    title: "Emergency Fire Deodorization",
+    description: "Rapid response after Nashville kitchen fires or furnace puffs. We stop the scent before it permanently sets into your furniture.",
+    link: "#smoke-odor-info"
+  },
+  {
+    icon: ShieldCheck,
+    title: "Final Scent Certification",
+    description: "Nashville's only certified zero-odor guarantee. We verify our results with professional IAQ sensors before we leave the site.",
+    link: "#smoke-odor-info"
   }
 ];
 
@@ -57,10 +57,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Peoria's Specialized Flood Protection
+            Nashville's Molecular Scent Restoration
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Don't trust a generic plumber with your basement's safety. Our Peoria team specializes specifically in the engineering of high-capacity sump pump systems.
+            Don't just mask odors with sprays. Our Nashville team uses industrial physics to dismantle smoke molecules, leaving your air pure and your property healthy.
           </p>
         </div>
 
@@ -93,4 +93,5 @@ const Services = () => {
 };
 
 export default Services;
+
 

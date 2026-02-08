@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "When should I replace my Peoria sump pump?",
-    answer: "Most high-quality sump pumps have a lifespan of 7 to 10 years. In Peoria, where the water table can be high near the river, we recommend a proactive replacement every 7 years to avoid emergency failures during heavy Illinois spring rains."
+    question: "Can cigarette smoke really be removed from Nashville hardwood?",
+    answer: "Yes. Using molecular extraction and thermal fogging, we can reach the smoke particles that have settled deep into the grain of Tennessee oak and heart pine floors. We treat the wood without damaging its historic finish."
   },
   {
-    question: "Is a battery backup really necessary in Peoria?",
-    answer: "Yes. Major storms in Central Illinois often cause power outages. Without a battery backup, your primary pump will stop working exactly when it's needed most. Our backup systems can pump for days on a single charge."
+    question: "Is ozone treatment safe for my Nashville home?",
+    answer: "Ozone is incredibly effective but must be used in a controlled, unoccupied environment. We also use Hydroxyl generators, which are 100% safe for use while your family and pets remain in the home."
   },
   {
-    question: "What size pump does my Peoria home need?",
-    answer: "This depends on the depth of your basement and the volume of water entry. Most Peoria residential homes require a 1/3 HP or 1/2 HP pump. We perform a volume calculation to ensure your new pump won't short-cycle or burn out."
+    question: "How long does the smoke odor removal process take?",
+    answer: "Most Nashville residential treatments take 24 to 48 hours for complete saturation and neutralization. Severe fire damage or long-term heavy smoking heritage homes may require a multi-stage approach over 3 to 4 days."
   },
   {
-    question: "Can I replace the sump pump myself?",
-    answer: "While possible, professional installation ensures the discharge lines are correctly pitched, the check valve is functional, and the electrical connections are waterproof. We provide a full warranty on both parts and labor for your Peoria home."
+    question: "Do you also clean the HVAC ducts in Nashville homes?",
+    answer: "Absolutely. Smoke particles often settle in the ductwork and re-contaminate the air every time the furnace or AC turns on. We use specialized fogging agents that travel through your entire ventilation system."
   },
   {
-    question: "What is a 'pedestal' pump vs. a 'submersible' pump?",
-    answer: "Pedestal pumps have the motor above the water line, while submersibles sit directly in the pit. Submersibles are much quieter, safer for families with children, and generally more powerful—making them our top recommendation for Peoria basements."
+    question: "Will the smell come back when the Nashville humidity rises?",
+    answer: "This is a common issue with 'masking' sprays. Because we use molecular-level neutralizing agents that physically dismantle the carbon bonds of smoke, the odor will not return, regardless of Tennessee's humidity levels."
   },
   {
-    question: "Does Peoria city code require an inspection?",
-    answer: "Replacements usually do not require a major inspection, but new installations or significant discharge line changes must meet Peoria plumbing codes. We handle all compliance and ensure your system is up to current standards."
+    question: "Does Nashville building code require specialized air quality testing?",
+    answer: "While not usually required for residential sale, many Nashville property managers request a certified IAQ (Indoor Air Quality) report. We provide digital scent certification and particulate analysis to verify our results."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Peoria Sump Pump FAQ
+            Nashville Smoke Odor FAQ
           </h2>
           <p className="text-lg text-slate-600">
-            Critical flood protection expertise for Peoria homeowners and property managers.
+            Professional air quality expertise for Nashville homeowners and property managers.
           </p>
         </div>
 
@@ -63,6 +63,7 @@ const FAQ = () => {
 };
 
 export default FAQ;
+
 
 
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Phone, Menu, X, ShieldAlert } from "lucide-react";
+import { Phone, Menu, X, Wind } from "lucide-react";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,7 +16,7 @@ const Header = () => {
 
   const navLinks = [
     { name: "Services", href: "#services" },
-    { name: "Flood Info", href: "#sump-pump-info" },
+    { name: "Scent Tech", href: "#smoke-odor-info" },
     { name: "FAQ", href: "#faq" },
     { name: "Contact", href: "#contact" },
   ];
@@ -31,17 +31,18 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${isScrolled ? "bg-blue-600" : "bg-white"}`}>
-              <ShieldAlert className={`w-6 h-6 ${isScrolled ? "text-white" : "text-blue-600"}`} />
+              <Wind className={`w-6 h-6 ${isScrolled ? "text-white" : "text-blue-600"}`} />
             </div>
             <div>
               <span className={`font-heading font-bold text-xl block leading-none ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Peoria
+                Nashville
               </span>
               <span className={`text-sm font-medium ${isScrolled ? "text-blue-600" : "text-blue-100"}`}>
-                Pump Pros
+                Air Quality Pros
               </span>
             </div>
           </div>
+
 
 
           {/* Desktop Navigation */}
@@ -62,9 +63,9 @@ const Header = () => {
                 : "bg-white text-blue-900 hover:bg-blue-50"
                 }`}
             >
-              <a href="tel:8777921410" className="flex items-center gap-2">
+              <a href="tel:3802660944" className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                (877) 792-1410
+                (380) 266-0944
               </a>
             </Button>
           </nav>
@@ -99,9 +100,9 @@ const Header = () => {
                 </a>
               ))}
               <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white" size="lg" asChild>
-                <a href="tel:8777921410" className="flex items-center justify-center gap-2">
+                <a href="tel:3802660944" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
-                  (877) 792-1410
+                  (380) 266-0944
                 </a>
               </Button>
             </nav>

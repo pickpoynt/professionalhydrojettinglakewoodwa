@@ -1,35 +1,35 @@
-import { Shield, Microscope, MapPin, Building2, ClipboardCheck, Zap, Award, CheckCircle2 } from "lucide-react";
+import { Shield, Microscope, MapPin, Building2, ClipboardCheck, Wind, Award, Sparkles } from "lucide-react";
 
 const reasons = [
   {
     icon: Award,
-    title: "Peoria's Pumping Authority",
-    description: "We are the leading specialists for high-capacity flood prevention in Peoria, serving the Illinois River valley with precision and speed for over 20 years."
+    title: "Nashville's IAQ Leaders",
+    description: "We are the leading specialists for molecular air purification in Nashville, serving Music City with surgical precision for over 15 years."
   },
   {
     icon: Microscope,
-    title: "Diagnostic Site Assessment",
-    description: "Every Peoria project begins with a full assessment of your basement's drainage capacity, ensuring we install the exact horsepower your property requires."
+    title: "Molecular Scent Analysis",
+    description: "Every Nashville project begins with a professional air quality assessment, identifying the exact chemical composition of the lingering odors."
   },
   {
-    icon: Building2,
-    title: "Industrial Grade Equipment",
-    description: "We use professional-grade cast iron pumps that far outlast the plastic consumer models found in big-box stores. Built for Peoria's toughest storms."
+    icon: Sparkles,
+    title: "Eco-Friendly Chemistry",
+    description: "We use botanical-based neutralizers and advanced physics (not heavy perfumes) to ensure your Nashville home is safe for immediate occupancy."
   },
   {
     icon: ClipboardCheck,
-    title: "Licensed & Locally Insured",
-    description: "Our Peoria team is fully licensed and insured in Illinois, ensuring your home is protected and all work exceeds local building and safety codes."
+    title: "Certified & Local",
+    description: "Our Nashville team is IICRC certified in odor control and smoke restoration, ensuring all work meets the highest national safety standards."
   },
   {
     icon: Shield,
-    title: "Zero-Flood Guarantee",
-    description: "We don't just replace pumps; we design systems. Our redundant backup configurations ensure your basement stays bone-dry, guaranteed."
+    title: "Zero-Scent Guarantee",
+    description: "We don't just reduce smells; we eliminate them. If the smoke odor returns within 30 days, we'll return to your Nashville property at zero cost."
   },
   {
     icon: MapPin,
-    title: "Peoria's Local Team",
-    description: "We live and work in Peoria. From Grandview Drive to North Peoria, we understand the specific water-table challenges facing our local neighborhoods."
+    title: "Music City Heritage",
+    description: "From the Ryman to East Nashville bungalows, we understand how to treat Tennessee's historic building materials without causing harm."
   }
 ];
 
@@ -39,10 +39,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Peoria's Highest Rated Flood Specialists
+            Nashville's Choice for Pure Air
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Choose the team that Peoria homeowners trust. We specialize in turning a basement flooding risk into a permanent, maintenance-free peace of mind.
+            Choose the restoration team that Nashville property owners trust. We specialize in turning a smoke-damaged environment into a fresh, healthy home.
           </p>
         </div>
 
@@ -70,6 +70,7 @@ const WhyUs = () => {
 };
 
 export default WhyUs;
+
 
 
 

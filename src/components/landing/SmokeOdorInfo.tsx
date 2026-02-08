@@ -1,115 +1,111 @@
-import { Wind, Flame, Sparkles, Shield, Droplets, Zap } from "lucide-react";
+import { Wind, ShieldCheck, Zap, Thermometer, ShieldAlert, Sparkles, Filter, Music } from "lucide-react";
+
+const infoData = [
+    {
+        icon: Thermometer,
+        title: "Thermal Fogging Tech",
+        description: "Nashville's humid climate can trap smoke particles deep in porous surfaces. Our thermal fogging mimics the behavior of smoke, penetrating deep into Tennessee hardwood to neutralize odors at the source.",
+    },
+    {
+        icon: Music,
+        title: "Music Venue Restoration",
+        description: "From historic Broadway honky-tonks to private home studios, we specialize in removing years of cigarette and tobacco smoke without damaging sensitive acoustic treatments or instruments.",
+    },
+    {
+        icon: Sparkles,
+        title: "Hydroxyl Generation",
+        description: "Safe for use around Nashville families and pets. Hydroxyl generators use UV light to create atmospheric cleaners that safely dismantle the molecular structure of smoke and char odor.",
+    },
+];
+
+const benefitsData = [
+    "Restores indoor air quality (IAQ)",
+    "Neutralizes deep cigarette toxins",
+    "Prevents 'ghost' odors in summer",
+    "Increases Nashville property value",
+    "Safe for antiques & instruments",
+    "Certified eco-friendly chemistry",
+];
 
 const SmokeOdorInfo = () => {
     return (
-        <section id="smoke-odor-info" className="py-20 bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
+        <section id="smoke-odor-info" className="py-24 bg-gradient-hero">
             <div className="container mx-auto px-4">
-                <div className="max-w-6xl mx-auto">
-                    <div className="text-center mb-16">
-                        <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-                            Professional Smoke Odor Removal from Upholstery in Whitefish, MT
-                        </h2>
-                        <p className="text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
-                            Montana's dry climate and wood-burning culture mean smoke damage is a common issue. Whether from a house fire, fireplace malfunction, or wildfire smoke infiltration, we use advanced ozone treatment and thermal fogging to completely eliminate smoke particles embedded deep in upholstery fibers.
+                <div className="text-center max-w-3xl mx-auto mb-16">
+                    <span className="inline-block px-4 py-2 bg-blue-500/20 border border-blue-500/30 rounded-full text-blue-400 text-sm font-semibold mb-4 text-center">
+                        Nashville Air Quality Purists
+                    </span>
+                    <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
+                        The Science of Nashville Scent Restoration
+                    </h2>
+                    <p className="text-slate-300 text-lg">
+                        Smoke is not just a smell; it's a microscopic residue. In Nashville's varied architecture—from historic East Nashville cottages to modern Gulch condos—effective removal requires molecular intervention.
+                    </p>
+                </div>
+
+                {/* Info Cards */}
+                <div className="grid md:grid-cols-3 gap-8 mb-16">
+                    {infoData.map((info, index) => (
+                        <div
+                            key={index}
+                            className="bg-slate-900 rounded-xl p-8 shadow-lg border border-slate-800 hover:border-blue-500/30 transition-all duration-300"
+                        >
+                            <div className="w-14 h-14 rounded-xl bg-blue-500/10 flex items-center justify-center mb-6">
+                                <info.icon className="w-7 h-7 text-blue-400" />
+                            </div>
+                            <h3 className="text-xl font-heading font-bold text-white mb-3">
+                                {info.title}
+                            </h3>
+                            <p className="text-slate-400 leading-relaxed">
+                                {info.description}
+                            </p>
+                        </div>
+                    ))}
+                </div>
+
+                {/* Two Column Content */}
+                <div className="grid lg:grid-cols-2 gap-12 items-center">
+                    <div className="bg-slate-900 rounded-2xl p-8 lg:p-10 shadow-xl border border-slate-800">
+                        <div className="flex items-center gap-3 mb-6 font-center justify-center">
+                            <Filter className="w-8 h-8 text-blue-400" />
+                            <h3 className="text-2xl font-heading font-bold text-white">
+                                HEPA-Air Scrubbing
+                            </h3>
+                        </div>
+                        <p className="text-slate-400 mb-6 leading-relaxed">
+                            We deploy industrial-grade HEPA 500 air scrubbers across the Nashville service area to pull 99.97% of airborne particles out of your living space during the deodorization process.
+                        </p>
+                        <p className="text-slate-400 leading-relaxed">
+                            This ensures that once we neutralize the physical surfaces of your Tennessee home, the air remains crisp, clean, and free of re-contaminating soot or tar particles.
                         </p>
                     </div>
 
-                    <div className="grid md:grid-cols-2 gap-8 mb-16">
-                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-blue-600">
-                            <div className="flex items-start gap-4 mb-4">
-                                <div className="bg-blue-100 p-3 rounded-lg">
-                                    <Wind className="w-8 h-8 text-blue-600" />
-                                </div>
-                                <div>
-                                    <h3 className="text-2xl font-bold text-slate-900 mb-3">
-                                        Ozone Treatment Technology
-                                    </h3>
-                                    <p className="text-slate-700 leading-relaxed mb-4">
-                                        Our industrial-grade ozone generators produce O₃ molecules that chemically bond with smoke particles at the molecular level. This doesn't just mask odors—it destroys them permanently. We seal the treatment area and run cycles until all smoke smell is eliminated from your furniture.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 lg:p-10 shadow-xl">
+                        <h3 className="text-2xl font-heading font-bold text-white mb-6">
+                            Total Scent Neutralization
+                        </h3>
+                        <ul className="space-y-4">
+                            {benefitsData.map((benefit, index) => (
+                                <li key={index} className="flex items-start gap-3">
+                                    <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center shrink-0 mt-0.5">
+                                        <Sparkles className="w-4 h-4 text-white" />
+                                    </div>
+                                    <span className="text-blue-50 text-lg">
+                                        {benefit}
+                                    </span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
 
-                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-amber-600">
-                            <div className="flex items-start gap-4 mb-4">
-                                <div className="bg-amber-100 p-3 rounded-lg">
-                                    <Flame className="w-8 h-8 text-amber-600" />
-                                </div>
-                                <div>
-                                    <h3 className="text-2xl font-bold text-slate-900 mb-3">
-                                        Thermal Fogging Process
-                                    </h3>
-                                    <p className="text-slate-700 leading-relaxed mb-4">
-                                        Thermal foggers heat specialized deodorizing solutions into a fine mist that penetrates every fiber, seam, and cushion layer. This reaches smoke particles that standard cleaning can't touch, neutralizing odors in areas traditional methods miss completely.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-green-600">
-                            <div className="flex items-start gap-4 mb-4">
-                                <div className="bg-green-100 p-3 rounded-lg">
-                                    <Sparkles className="w-8 h-8 text-green-600" />
-                                </div>
-                                <div>
-                                    <h3 className="text-2xl font-bold text-slate-900 mb-3">
-                                        Deep Upholstery Cleaning
-                                    </h3>
-                                    <p className="text-slate-700 leading-relaxed mb-4">
-                                        Before odor treatment, we perform hot water extraction on all upholstered surfaces. This removes soot, ash, and smoke residue from fabric fibers. We use pH-balanced cleaning agents specifically formulated for smoke damage that won't harm delicate upholstery materials.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-purple-600">
-                            <div className="flex items-start gap-4 mb-4">
-                                <div className="bg-purple-100 p-3 rounded-lg">
-                                    <Shield className="w-8 h-8 text-purple-600" />
-                                </div>
-                                <div>
-                                    <h3 className="text-2xl font-bold text-slate-900 mb-3">
-                                        Fabric Protection Treatment
-                                    </h3>
-                                    <p className="text-slate-700 leading-relaxed mb-4">
-                                        After odor removal and cleaning, we apply fabric protectant to help your upholstery resist future stains and odors. This creates a barrier that makes it easier to clean spills and prevents new odors from penetrating as deeply into the fibers.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-red-600">
-                            <div className="flex items-start gap-4 mb-4">
-                                <div className="bg-red-100 p-3 rounded-lg">
-                                    <Droplets className="w-8 h-8 text-red-600" />
-                                </div>
-                                <div>
-                                    <h3 className="text-2xl font-bold text-slate-900 mb-3">
-                                        Wildfire Smoke Restoration
-                                    </h3>
-                                    <p className="text-slate-700 leading-relaxed mb-4">
-                                        Flathead Valley residents know wildfire smoke can infiltrate homes during fire season. We specialize in removing that acrid smell from couches, chairs, and cushions that absorbed smoke over days or weeks of exposure. Our multi-step process ensures complete odor elimination.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-indigo-600">
-                            <div className="flex items-start gap-4 mb-4">
-                                <div className="bg-indigo-100 p-3 rounded-lg">
-                                    <Zap className="w-8 h-8 text-indigo-600" />
-                                </div>
-                                <div>
-                                    <h3 className="text-2xl font-bold text-slate-900 mb-3">
-                                        Same-Day Emergency Service
-                                    </h3>
-                                    <p className="text-slate-700 leading-relaxed mb-4">
-                                        After a fire, every hour counts. Smoke particles continue to penetrate deeper into upholstery fibers over time. We offer same-day response in Whitefish and throughout Flathead County to begin the restoration process immediately and prevent permanent damage.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                {/* Bottom CTA */}
+                <div className="mt-16 text-center">
+                    <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-sm rounded-full px-8 py-4 border border-white/10">
+                        <ShieldCheck className="w-6 h-6 text-blue-400" />
+                        <span className="text-white font-medium text-lg">
+                            Nashville's Clean Air Hotline: (380) 266-0944.
+                        </span>
                     </div>
                 </div>
             </div>

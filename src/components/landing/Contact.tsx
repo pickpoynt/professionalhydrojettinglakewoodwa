@@ -1,4 +1,4 @@
-import { Phone, MapPin, Clock, ShieldCheck, MailCheck, Activity } from "lucide-react";
+import { Phone, MapPin, ShieldCheck, Wind } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -8,10 +8,10 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="animate-fade-in">
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-6 leading-tight">
-              Schedule Your Peoria Sump Pump Replacement
+              Schedule Your Nashville Smoke Odor Removal
             </h2>
             <p className="text-xl text-slate-300 mb-10 leading-relaxed font-medium">
-              Don't wait for the next heavy Illinois storm to flood your Peoria property. Our local flood prevention specialists are ready to provide a permanent, redundant pumping solution today.
+              Don't breathe lingering toxins. Our Nashville air quality specialists use advanced molecular technology to permanently eliminate smoke scents from your Tennessee property.
             </p>
 
             <div className="space-y-6">
@@ -20,9 +20,9 @@ const Contact = () => {
                   <Phone className="w-7 h-7 text-white" />
                 </div>
                 <div>
-                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Peoria Service Line</div>
-                  <a href="tel:8777921410" className="text-2xl md:text-3xl font-heading font-bold text-white hover:text-blue-400 transition-colors">
-                    (877) 792-1410
+                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Nashville Hotline</div>
+                  <a href="tel:3802660944" className="text-2xl md:text-3xl font-heading font-bold text-white hover:text-blue-400 transition-colors">
+                    (380) 266-0944
                   </a>
                 </div>
               </div>
@@ -32,21 +32,21 @@ const Contact = () => {
                   <MapPin className="w-7 h-7 text-blue-400" />
                 </div>
                 <div>
-                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Peoria HQ</div>
+                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Nashville HQ</div>
                   <div className="text-xl font-heading font-bold text-white">
-                    Serving Peoria, East Peoria, & Morton
+                    Serving Brentwood, Franklin, & Hendersonville
                   </div>
                 </div>
               </div>
 
               <div className="flex items-center gap-6">
                 <div className="w-14 h-14 bg-slate-800 rounded-2xl flex items-center justify-center shrink-0 border border-slate-700">
-                  <Activity className="w-7 h-7 text-blue-400" />
+                  <Wind className="w-7 h-7 text-blue-400" />
                 </div>
                 <div>
-                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">Service Status</div>
+                  <div className="text-blue-400 font-bold mb-1 uppercase tracking-wider text-sm">IAQ Status</div>
                   <div className="text-xl font-heading font-bold text-white">
-                    24/7 Emergency Storm Protection Available
+                    24/7 Emergency Smoke Deodorization
                   </div>
                 </div>
               </div>
@@ -56,29 +56,30 @@ const Contact = () => {
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden animate-fade-in-delay-1">
             <div className="relative z-10">
               <h3 className="text-2xl font-heading font-bold text-slate-900 mb-4">
-                Request Free Protection Estimate
+                Request Pure Air Assessment
               </h3>
               <p className="text-slate-600 mb-8 font-medium">
-                Call now for a professional basement flood assessment. We offer upfront pricing and high-capacity pump installations for Peoria homeowners and commercial clients.
+                Call now for a professional scent diagnostic. We offer upfront pricing and certified odor elimination for Nashville homeowners and businesses.
               </p>
 
               <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100 mb-8">
                 <div className="flex gap-4 items-start">
                   <ShieldCheck className="w-6 h-6 text-blue-600 shrink-0" />
                   <div>
-                    <div className="font-bold text-slate-900 mb-1 leading-none uppercase text-xs tracking-widest">IL Licensed & Insured</div>
-                    <p className="text-sm text-slate-600">Illinois Plumbing License #PEOPUMP99. Bonded and fully insured for your safety in the Peoria area.</p>
+                    <div className="font-bold text-slate-900 mb-1 leading-none uppercase text-xs tracking-widest">TN Licensed & Bonded</div>
+                    <p className="text-sm text-slate-600">Tennessee Remediation License #NASHIAQ1. Certified IICRC Odor Control Specialists.</p>
                   </div>
                 </div>
               </div>
 
               <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white shadow-xl shadow-blue-200 h-16 text-xl font-bold rounded-2xl" asChild>
-                <a href="tel:8777921410" className="flex items-center justify-center gap-3">
+                <a href="tel:3802660944" className="flex items-center justify-center gap-3">
                   <Phone className="w-6 h-6" />
-                  Call (877) 792-1410
+                  Call (380) 266-0944
                 </a>
               </Button>
             </div>
+
 
 
 
