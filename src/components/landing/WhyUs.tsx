@@ -11,10 +11,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why San Antonio Trusts Our <span className="text-indigo-400">Plumbers</span>
+            Why San Francisco Trusts Our <span className="text-indigo-400">Plumbers</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Plumbing problems are stressful. We make the repair process seamless, clean, and permanent for the Alamo City community.
+            San Francisco's terrain and historic architecture require a master's touch. We provide seamless, clean, and permanent solutions.
           </p>
         </div>
 
@@ -23,22 +23,22 @@ const WhyUs = () => {
             {
               icon: ShieldCheck,
               title: "Exceptional Results",
-              description: "We stand behind our work with a commitment to quality on all San Antonio plumbing repairs and installations."
+              description: "We stand behind our work with a commitment to quality on all San Francisco master plumbing repairs."
             },
             {
               icon: MapPin,
-              title: "Local Experts",
-              description: "We know San Antonio homes and building codes inside and out, ensuring all repairs are compliant and safe."
+              title: "SF Local Experts",
+              description: "We know San Francisco's complex residential codes and topography, ensuring all repairs are compliant."
             },
             {
               icon: Calendar,
-              title: "Same-Day Service",
-              description: "Most plumbing issues can't wait. We offer same-day appointments to get your home back to normal fast."
+              title: "Same-Day Response",
+              description: "Bay Area plumbing issues can't wait. We offer priority dispatching to get your plumbing back in order fast."
             },
             {
               icon: DollarSign,
-              title: "Upfront Pricing",
-              description: "No surprise fees. We provide a clear, detailed assessment for the entire project before we start any work."
+              title: "Transparent Assessment",
+              description: "No hidden fees for SF's challenging geography. We provide a clear pricing assessment before any work begins."
             }
           ].map((feature, index) => (
             <div
@@ -58,9 +58,9 @@ const WhyUs = () => {
 
         <div className="mt-20 p-10 rounded-[3rem] bg-gradient-to-br from-indigo-600 to-indigo-800 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl shadow-indigo-900/40 transform hover:scale-[1.02] transition-transform duration-500">
           <div className="max-w-xl">
-            <h3 className="text-3xl font-bold text-white mb-4">Emergency Plumbing Problem?</h3>
+            <h3 className="text-3xl font-bold text-white mb-4">Bay Area Plumbing Emergency?</h3>
             <p className="text-indigo-50 text-lg font-medium opacity-90">
-              Don't let a leak ruin your home. Our rapid response team in San Antonio is ready to diagnose and repair 24/7.
+              Don't let a leak compromise your property. Our SF rapid response team is ready to diagnose and repair 24/7.
             </p>
           </div>
           <a

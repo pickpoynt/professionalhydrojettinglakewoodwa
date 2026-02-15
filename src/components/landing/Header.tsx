@@ -38,10 +38,10 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                SAN ANTONIO
+                SF Master
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-indigo-600" : "text-indigo-400"}`}>
-                PLUMBING <span className="text-[10px] opacity-70">PROS</span>
+                Plumbing <span className="text-[10px] opacity-70">Pros</span>
               </span>
             </div>
           </div>
