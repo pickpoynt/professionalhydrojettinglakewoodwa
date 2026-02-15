@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: "Will you provide a price before starting the work?",
-    answer: "Absolutely. We believe in transparency. Our technicians will diagnose the issue and provide a clear, upfront, flat-rate quote before any work begins."
+    answer: "Absolutely. We believe in transparency. Our technicians will diagnose the issue and provide a clear, upfront, flat-rate pricing assessment before any work begins."
   },
   {
     question: "Are you licensed to handle Dallas slab leaks?",

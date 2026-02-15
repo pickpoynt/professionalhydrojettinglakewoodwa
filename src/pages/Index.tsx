@@ -119,7 +119,7 @@ const Index = () => {
               <span className="block text-blue-400 mt-2 text-2xl md:text-3xl">Dallas Plumbing Pros</span>
             </>
           }
-          subtitle="Your trusted local plumber. We fix leaks, unclog drains, and install water heaters in Dallas fast. 100% Satisfaction Guaranteed."
+          subtitle="Your trusted local plumber. We fix leaks, unclog drains, and install water heaters in Dallas fast. Trusted Professional Service."
           image="https://images.unsplash.com/photo-1543783207-6a3374823438?q=80&w=2669&auto=format&fit=crop"
           overlayImage="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80"
         />

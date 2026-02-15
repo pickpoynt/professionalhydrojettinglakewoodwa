@@ -22,8 +22,8 @@ const WhyUs = () => {
           {[
             {
               icon: ShieldCheck,
-              title: "Satisfaction Guaranteed",
-              description: "We stand behind our work with a 100% satisfaction guarantee on all plumbing repairs and installations."
+              title: "Exceptional Results",
+              description: "We stand behind our work with a commitment to quality on all plumbing repairs and installations."
             },
             {
               icon: MapPin,
@@ -38,7 +38,7 @@ const WhyUs = () => {
             {
               icon: DollarSign,
               title: "Upfront Pricing",
-              description: "No surprise fees. We provide a clear, detailed quote for the entire project before we start any work."
+              description: "No surprise fees. We provide a clear, detailed assessment for the entire project before we start any work."
             }
           ].map((feature, index) => (
             <div

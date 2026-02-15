@@ -37,8 +37,8 @@ const Contact = () => {
                     <ShieldCheck className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-blue-600 uppercase tracking-widest mb-1">Satisfaction Guarantee</p>
-                    <p className="text-xl font-bold text-slate-900">100% Workmanship Warranty</p>
+                    <p className="text-sm font-bold text-blue-600 uppercase tracking-widest mb-1">Professional Service</p>
+                    <p className="text-xl font-bold text-slate-900">Superior Craftsmanship</p>
                   </div>
                 </div>
 
@@ -55,7 +55,7 @@ const Contact = () => {
             </div>
 
             <div className="bg-white rounded-[2.5rem] p-10 shadow-2xl shadow-blue-900/10 border border-slate-100">
-              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Get A Free Quote</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Service</h3>
               <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">

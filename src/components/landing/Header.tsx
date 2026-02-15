@@ -71,7 +71,7 @@ const Header = () => {
               </a>
             </div>
             <Button className={`${isScrolled ? "bg-blue-600 hover:bg-blue-700 shadow-blue-900/20" : "bg-white text-slate-900 hover:bg-blue-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-              <a href="#contact">Free Quote</a>
+              <a href="#contact">Request Service</a>
             </Button>
           </div>
 
@@ -111,7 +111,7 @@ const Header = () => {
                 (877) 792-1410
               </a>
               <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
-                <a href="#contact">Get Free Quote</a>
+                <a href="#contact">Book Now</a>
               </Button>
             </div>
           </div>

@@ -49,7 +49,7 @@ const Footer = () => {
               <li><a href="#why-us" className="text-slate-400 hover:text-blue-500 transition-colors font-medium uppercase text-xs tracking-widest">Why Choose Us?</a></li>
               <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors font-medium uppercase text-xs tracking-widest">Our Services</a></li>
               <li><a href="#faq" className="text-slate-400 hover:text-blue-500 transition-colors font-medium uppercase text-xs tracking-widest">FAQ</a></li>
-              <li><a href="#contact" className="text-slate-400 hover:text-blue-500 transition-colors font-medium uppercase text-xs tracking-widest">Get A Quote</a></li>
+              <li><a href="#contact" className="text-slate-400 hover:text-blue-500 transition-colors font-medium uppercase text-xs tracking-widest">Contact Us</a></li>
               <li><p className="text-slate-400 font-medium uppercase text-xs tracking-widest">Privacy Policy</p></li>
             </ul>
           </div>
