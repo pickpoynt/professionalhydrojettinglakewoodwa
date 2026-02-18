@@ -37,8 +37,8 @@ const Hero = ({
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 mb-8 animate-fade-in shadow-lg shadow-emerald-500/5 uppercase tracking-widest text-[10px] items-center font-bold">
-            <Zap className="w-4 h-4 text-emerald-400" />
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 mb-8 animate-fade-in shadow-lg shadow-indigo-500/5 uppercase tracking-widest text-[10px] items-center font-bold">
+            <Zap className="w-4 h-4 text-indigo-400" />
             <span>{badge}</span>
           </div>
 
@@ -46,21 +46,21 @@ const Hero = ({
             {title}
           </h1>
 
-          <p className="text-xl text-slate-300 mb-10 animate-fade-in-delay-1 leading-relaxed max-w-2xl italic font-medium border-l-4 border-emerald-500 pl-6">
+          <p className="text-xl text-slate-300 mb-10 animate-fade-in-delay-1 leading-relaxed max-w-2xl italic font-medium border-l-4 border-indigo-500 pl-6">
             {subtitle}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
-            <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white border-none h-14 px-8 text-lg font-bold shadow-xl shadow-emerald-900/40 uppercase tracking-widest transition-all hover:scale-105" asChild>
+            <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700 text-white border-none h-14 px-8 text-lg font-bold shadow-xl shadow-indigo-900/40 uppercase tracking-widest transition-all hover:scale-105" asChild>
               <a href={`tel:${phone}`} className="flex items-center gap-2">
-                <Phone className="w-5 h-5 text-emerald-400" />
+                <Phone className="w-5 h-5 text-indigo-400" />
                 {formattedPhone}
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-emerald-500/50 text-white hover:bg-emerald-600/10 transition-all h-14 px-8 text-lg uppercase tracking-widest font-bold" asChild>
+            <Button size="lg" variant="outline" className="border-indigo-500/50 text-white hover:bg-indigo-600/10 transition-all h-14 px-8 text-lg uppercase tracking-widest font-bold" asChild>
               <a href="#contact" className="flex items-center gap-2">
                 Request Service
-                <ArrowRight className="w-5 h-5 text-emerald-500" />
+                <ArrowRight className="w-5 h-5 text-indigo-500" />
               </a>
             </Button>
           </div>
@@ -70,19 +70,19 @@ const Hero = ({
               <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
                 <Hammer className="w-6 h-6 text-emerald-400" />
               </div>
-              <span className="text-white">Master Plumbing</span>
+              <span className="text-white">Coastal Slab Experts</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
                 <ShieldCheck className="w-6 h-6 text-emerald-400" />
               </div>
-              <span className="text-white">Baraboo Area Ready</span>
+              <span className="text-white">Coos County Ready</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
                 <Search className="w-6 h-6 text-emerald-400" />
               </div>
-              <span className="text-white">Infrastructure Analytics</span>
+              <span className="text-white">Precision Detection</span>
             </div>
           </div>
         </div>

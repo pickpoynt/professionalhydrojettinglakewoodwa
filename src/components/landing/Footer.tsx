@@ -7,17 +7,17 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center">
                 <Hammer className="w-6 h-6 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Village Fix</span>
-                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Concrete Floor Leak Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Coos Bay Slab</span>
+                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Leak Pros</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium">
-              The Village's foundation and concrete repair experts.
-              Providing structural water leak repair and floor sealing throughout Oklahoma City Metro.
+              Coos Bay's specialized slab water line and foundation repair experts.
+              Providing structural leak detection and restoration throughout Coos County and the Oregon Coast.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors group">
@@ -35,11 +35,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-8 font-heading text-white">Our Services</h4>
             <ul className="space-y-4">
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Concrete Leak Repair</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Slab Injection</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Slab Leak Detection</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Pipe Restoration</a></li>
               <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Foundation Sealing</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Pressure Relief</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Crack Evaluation</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Coastal Mitigation</a></li>
+              <li><a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors flex items-center gap-2 font-medium uppercase text-xs tracking-widest"> Structural Repair</a></li>
             </ul>
           </div>
 
@@ -75,7 +75,7 @@ const Footer = () => {
                 <div>
                   <p className="text-slate-500 text-sm font-bold uppercase tracking-wider mb-1 font-heading">Our Address</p>
                   <p className="text-white font-bold">
-                    2304 W Britton Rd, The Village, OK 73120
+                    500 Central Ave, Coos Bay, OR 97420
                   </p>
                 </div>
               </div>
@@ -85,11 +85,11 @@ const Footer = () => {
 
         <div className="pt-10 border-t border-slate-900 flex flex-col md:row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm font-bold uppercase tracking-widest">
-            © {new Date().getFullYear()} CONCRETE FLOOR LEAK REPAIR THE VILLAGE PROS.
+            © {new Date().getFullYear()} COOS BAY SLAB LEAK PROS.
           </p>
           <div className="flex items-center gap-2 text-slate-600 text-[10px] items-center font-bold uppercase tracking-widest">
             <Hammer className="w-4 h-4 text-blue-500" />
-            <span>Licensed & Insured Foundation & Repair Specialists</span>
+            <span>Licensed & Insured Coastal Foundation Specialists</span>
           </div>
         </div>
       </div>
@@ -101,20 +101,20 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Concrete Floor Leak Repair The Village Pros",
+          "name": "Coos Bay Slab Leak Pros",
           "telephone": "+18777921410",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "2304 W Britton Rd",
-            "addressLocality": "The Village",
-            "addressRegion": "OK",
-            "postalCode": "73120",
+            "streetAddress": "500 Central Ave",
+            "addressLocality": "Coos Bay",
+            "addressRegion": "OR",
+            "postalCode": "97420",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "35.5709",
-            "longitude": "-97.5559"
+            "latitude": "43.3665",
+            "longitude": "-124.2179"
           },
           "openingHours": "Mo-Su 00:00-23:59"
         })}

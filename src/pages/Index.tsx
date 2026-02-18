@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import ConcreteFloorRepairInfo from "@/components/landing/ConcreteFloorRepairInfo";
+import CoosBaySlabLeakInfo from "@/components/landing/CoosBaySlabLeakInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,39 +15,39 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Concrete floor water leak repair The Village OK</title>
-        <meta name="description" content="Concrete floor water leak repair The Village OK - Expert repair for slab and foundation water leaks through concrete floors in The Village, OK. Structural-grade solutions. Call (877) 792-1410." />
-        <meta name="keywords" content="Concrete floor water leak repair The Village OK, The Village Oklahoma slab repair, concrete foundation leak The Village, basement floor leak repair OKC" />
-        <link rel="canonical" href="https://concrete-floor-water-leak-repair-the-village.com/" />
+        <title>Slab water line leak repair Coos Bay OR | Coos Bay Slab Leak Pros</title>
+        <meta name="description" content="Slab water line leak repair Coos Bay OR - Expert repair for sub-slab water line leaks in Coos Bay, OR. Professional leak detection and coastal foundation solutions. Call (877) 792-1410." />
+        <meta name="keywords" content="Slab water line leak repair Coos Bay OR, Coos Bay Oregon slab repair, sub-slab water line Coos Bay, slab leak detection Coos County OR" />
+        <link rel="canonical" href="https://slab-water-line-leak-repair-coos-bay.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Concrete Floor Leak Repair The Village Pros",
-            "image": "https://images.unsplash.com/photo-1590060411636-f78a73a9856f?auto=format&fit=crop&q=80",
+            "name": "Coos Bay Slab Leak Pros",
+            "image": "https://images.unsplash.com/photo-1594235200370-b2d97b973b5b?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "2304 W Britton Rd",
-              "addressLocality": "The Village",
-              "addressRegion": "OK",
-              "postalCode": "73120",
+              "streetAddress": "500 Central Ave",
+              "addressLocality": "Coos Bay",
+              "addressRegion": "OR",
+              "postalCode": "97420",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "35.5709",
-              "longitude": "-97.5559"
+              "latitude": "43.3665",
+              "longitude": "-124.2179"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "The Village, OK"
+              "name": "Coos Bay, OR"
             },
             "priceRange": "$$$",
-            "description": "Specialized concrete floor water leak repair and foundation plumbing services in The Village, Oklahoma. Utilizing high-pressure injection and structural sealing."
+            "description": "Specialized slab water line leak repair and coastal foundation plumbing services in Coos Bay, Oregon. Professional electronic leak detection and structural solutions."
           })}
         </script>
 
@@ -56,39 +56,39 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Concrete Floor Leak Repair",
+            "serviceType": "Slab Water Line Leak Repair",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Concrete Floor Leak Repair The Village Pros",
+              "name": "Coos Bay Slab Leak Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "The Village, Oklahoma"
+              "name": "Coos Bay, Oregon"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "The Village Concrete Repair Catalog",
+              "name": "Coos Bay Slab Repair Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Concrete Floor Sealing"
+                    "name": "Electronic Sub-Slab Leak Detection"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Slab Leak Hydraulic Injection"
+                    "name": "Coastal Slab Foundation Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Foundation Water Management"
+                    "name": "Water Line Pipe Restoration"
                   }
                 }
               ]
@@ -97,11 +97,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Concrete floor water leak repair The Village OK - Concrete Floor Leak Repair The Village Pros" />
-        <meta property="og:description" content="Expert concrete floor and foundation water leak repair in The Village, OK. Rapid structural solutions to protect your home's integrity." />
+        <meta property="og:title" content="Slab water line leak repair Coos Bay OR - Coos Bay Slab Leak Pros" />
+        <meta property="og:description" content="Expert slab water line and coastal foundation repair in Coos Bay, OR. Advanced detection solutions to protect your Oregon home." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://concrete-floor-water-leak-repair-the-village.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1590060411636-f78a73a9856f?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://slab-water-line-leak-repair-coos-bay.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1594235200370-b2d97b973b5b?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -109,18 +109,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              Concrete floor water leak repair The Village OK
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Concrete Floor Leak Repair The Village Pros</span>
+              Slab water line leak repair Coos Bay OR
+              <span className="block text-emerald-400 mt-2 text-2xl md:text-3xl italic">Coos Bay Slab Leak Pros</span>
             </>
           }
-          subtitle="The Village's specialist in concrete foundation and floor water leak repair. We stop intrusion at the source with structural-grade injections and industrial sealants. Protecting Village homes for years."
-          image="https://images.unsplash.com/photo-1503387762-592dee58c460?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80"
-          badge="THE VILLAGE CONCRETE REPAIR PROS"
+          subtitle="Coos Bay's specialized experts in sub-slab water line and foundation leak repair. We utilize advanced electronic detection and maritime-grade sealing to stop leaks at the source. Safeguarding Coos Bay homes from coastal foundation failure."
+          image="https://images.unsplash.com/photo-1594235200370-b2d97b973b5b?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80"
+          badge="COOS BAY SLAB REPAIR SPECIALISTS"
         />
         <Services />
         <WhyUs />
-        <ConcreteFloorRepairInfo />
+        <CoosBaySlabLeakInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

@@ -8,53 +8,53 @@ const Contact = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 text-emerald-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Hammer className="w-4 h-4" />
-                CONCRETE FLOOR LEAK REPAIR THE VILLAGE PROS
+                COOS BAY SLAB LEAK PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Schedule <span className="text-emerald-600">The Village Repair</span>
+                Schedule <span className="text-indigo-600">Coos Bay Repair</span>
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Protect your home's foundation. Our concrete repair team provides structural solutions for under-slab and floor water leaks throughout OKC Metro.
+                Protect your Oregon home's foundation. Our Coos Bay-based repair team provides maritime-grade solutions for sub-slab water line leaks throughout Coos County.
               </p>
 
               <div className="space-y-8">
                 <div className="flex items-start gap-5 group border-b border-slate-100 pb-8">
-                  <div className="w-14 h-14 rounded-2xl bg-white shadow-lg flex items-center justify-center text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-300 border border-slate-100">
+                  <div className="w-14 h-14 rounded-2xl bg-white shadow-lg flex items-center justify-center text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-300 border border-slate-100">
                     <Phone className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">REPAIR HOTLINE</p>
-                    <a href="tel:8777921410" className="text-2xl font-bold text-slate-900 hover:text-emerald-600 transition-colors">
+                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">REPAIR HOTLINE</p>
+                    <a href="tel:8777921410" className="text-2xl font-bold text-slate-900 hover:text-indigo-600 transition-colors">
                       (877) 792-1410
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <div className="w-14 h-14 rounded-2xl bg-white shadow-lg flex items-center justify-center text-blue-600 border border-slate-100">
+                  <div className="w-14 h-14 rounded-2xl bg-white shadow-lg flex items-center justify-center text-indigo-600 border border-slate-100">
                     <ShieldCheck className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">Structural Grading</p>
-                    <p className="text-xl font-bold text-slate-900">High-Pressure Injection</p>
+                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Coastal Grading</p>
+                    <p className="text-xl font-bold text-slate-900">Coos County Certified</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <div className="w-14 h-14 rounded-2xl bg-white shadow-lg flex items-center justify-center text-emerald-600 border border-slate-100">
+                  <div className="w-14 h-14 rounded-2xl bg-white shadow-lg flex items-center justify-center text-indigo-600 border border-slate-100">
                     <MapPin className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900">The Village & North OKC</p>
+                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Service Area</p>
+                    <p className="text-xl font-bold text-slate-900">Coos Bay, North Bend & Coastal</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white rounded-[2.5rem] p-10 shadow-2xl shadow-blue-900/10 border border-slate-100">
+            <div className="bg-white rounded-[2.5rem] p-10 shadow-2xl shadow-indigo-900/10 border border-slate-100">
               <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Service</h3>
               <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                 <div className="grid md:grid-cols-2 gap-6">
@@ -62,7 +62,7 @@ const Contact = () => {
                     <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Your Name</label>
                     <input
                       type="text"
-                      className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-blue-500 transition-all outline-none font-medium"
+                      className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium"
                       placeholder="Full Name"
                     />
                   </div>
@@ -70,34 +70,34 @@ const Contact = () => {
                     <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Phone Number</label>
                     <input
                       type="tel"
-                      className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-blue-500 transition-all outline-none font-medium"
+                      className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium"
                       placeholder="(877) 792-1410"
                     />
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Problem Type</label>
-                  <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-blue-500 transition-all outline-none font-medium">
-                    <option>General Plumbing</option>
-                    <option>Clogged Drain</option>
-                    <option>Water Heater</option>
-                    <option>Leak Detection</option>
-                    <option>Emergency Service</option>
+                  <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Required</label>
+                  <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
+                    <option>Slab Leak Detection</option>
+                    <option>Water Line Restoration</option>
+                    <option>Foundation Plumbing Repair</option>
+                    <option>Coastal Foundation Sealing</option>
+                    <option>Emergency Water Leak</option>
                   </select>
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Details</label>
+                  <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Issue Details</label>
                   <textarea
                     rows={4}
-                    className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-blue-500 transition-all outline-none font-medium"
-                    placeholder="Describe the issue (e.g. leaking faucet, no hot water)..."
+                    className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium"
+                    placeholder="Describe your slab or foundation line concerns..."
                   ></textarea>
                 </div>
-                <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-emerald-900/20 uppercase tracking-widest">
-                  Request Service
+                <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest transition-all">
+                  Get Technical Quote
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
-                  *24/7 Priority diagnostics for Torrington plumbing calls
+                  *24/7 Priority diagnostics for Coos Bay slab leak emergencies
                 </p>
               </form>
             </div>

@@ -6,37 +6,37 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-emerald-600">Plumbing Services</span>
+            Comprehensive <span className="text-indigo-600">Slab Leak Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            West Milton property owners trust us for technical infrastructure diagnostics and precision plumbing restoration. We provide master-licensed care for the entire Stillwater Valley region.
+            Coos Bay property owners trust us for technical water line diagnostics and precision sub-slab restoration. We provide specialized care for the entire Oregon Coast.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             {
-              icon: Zap, // Using Zap for fast/emergency/leak
+              icon: Zap,
               title: "Leak Detection",
-              description: "We use advanced acoustic and thermal imaging technology to find hidden leaks behind walls and under foundations without destruction.",
+              description: "We use advanced electronic sensors and ultrasound to pinpoint hidden water line leaks under Coos Bay foundations with extreme precision.",
               link: "#contact"
             },
             {
-              icon: Drill, // Using Drill for installation/work
-              title: "Water Heaters",
-              description: "Whether you need a tankless upgrade or a repair for your traditional unit, we ensure you always have reliable hot water.",
+              icon: Drill,
+              title: "Line Repair",
+              description: "Specialized sub-slab water line restoration that addresses coastal corrosion and prevents further foundation flooding.",
               link: "#contact"
             },
             {
               icon: Camera,
-              title: "Drain Cleaning",
-              description: "From simple clogs to complex blockages, our professional drain cleaning services restore full flow to your home's plumbing.",
+              title: "Foundation Scan",
+              description: "High-tech non-invasive scans to identify plumbing pathways and failures within the concrete structure of Coos County homes.",
               link: "#contact"
             },
             {
               icon: Waves,
-              title: "Emergency Repair",
-              description: "Plumbing disasters don't wait for business hours. Our 24/7 team is ready to tackle burst pipes, overflows, and backups anytime.",
+              title: "Emergency Service",
+              description: "Water line failures are critical. Our 24/7 Coos Bay team is ready to tackle urgent slab leaks and sub-floor plumbing emergencies.",
               link: "#contact"
             }
           ].map((service, index) => (
@@ -45,12 +45,12 @@ const Services = () => {
               className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300"
             >
               <a href={service.link}>
-                <div className="w-16 h-16 rounded-2xl bg-white shadow-lg flex items-center justify-center mb-6 group-hover:bg-emerald-600 transition-colors">
-                  <service.icon className="w-8 h-8 text-emerald-600 group-hover:text-white transition-colors" />
+                <div className="w-16 h-16 rounded-2xl bg-white shadow-lg flex items-center justify-center mb-6 group-hover:bg-indigo-600 transition-colors">
+                  <service.icon className="w-8 h-8 text-indigo-600 group-hover:text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-emerald-700">{service.title}</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-indigo-700">{service.title}</h3>
                 <p className="text-slate-600 leading-relaxed font-medium mb-6">{service.description}</p>
-                <div className="flex items-center gap-2 text-emerald-600 font-bold text-sm uppercase tracking-wider group-hover:gap-3 transition-all">
+                <div className="flex items-center gap-2 text-indigo-600 font-bold text-sm uppercase tracking-wider group-hover:gap-3 transition-all">
                   Learn More <ArrowRight className="w-4 h-4" />
                 </div>
               </a>
