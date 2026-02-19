@@ -11,19 +11,19 @@ const Footer = () => {
                 <Locate className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Salem Sewer</span>
-                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Repair Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Puyallup Repiping</span>
+                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Salem's specialized sewer engineering experts. We provide master-grade sewer line repair and trenchless pipe lining services across Marion County.
+              Puyallup's specialized plumbing restoration experts. We provide master-grade whole-home repiping and system restoration across Pierce County.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Trenchless Pipe Lining", "Sewer Camera Inspections", "Hydro Jetting Services", "Main Line Restoration"].map((item) => (
+              {["Whole-Home Copper Repiping", "PEX Installation Services", "Plumbing System Mapping", "Technical Leak Detection"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-blue-500/40 group-hover:w-2 transition-all" />
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  555 Liberty St SE<br />
-                  Salem, OR 97301
+                  333 S Meridian<br />
+                  Puyallup, WA 98371
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Salem Sewer Repair Pros. All rights reserved. Marion County Sewer Authorities.
+            © {new Date().getFullYear()} Puyallup Repiping Pros. All rights reserved. Pierce County Plumbing Authorities.
           </p>
         </div>
       </div>
@@ -81,22 +81,22 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Salem Sewer Repair Pros",
+          "name": "Puyallup Repiping Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "555 Liberty St SE",
-            "addressLocality": "Salem",
-            "addressRegion": "OR",
-            "postalCode": "97301",
+            "streetAddress": "333 S Meridian",
+            "addressLocality": "Puyallup",
+            "addressRegion": "WA",
+            "postalCode": "98371",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "44.9429",
-            "longitude": "-123.0351"
+            "latitude": "47.1915",
+            "longitude": "-122.2932"
           },
           "telephone": "+18777921410",
-          "url": "https://sewer-line-repair-salem-oregon.com/"
+          "url": "https://repiping-services-puyallup.com/"
         })}
       </script>
     </footer>

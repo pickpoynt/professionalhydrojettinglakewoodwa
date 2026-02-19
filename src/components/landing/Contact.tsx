@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Locate className="w-4 h-4" />
-                SALEM SEWER REPAIR PROS
+                PUYALLUP REPIPING PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Schedule <span className="text-indigo-600">Salem Diagnostic</span>
+                Schedule <span className="text-indigo-600">Puyallup Diagnostic</span>
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Protect your Oregon property's infrastructure. Our Salem-based team provides technical, master-grade solutions for sewer line repair and trenchless pipe lining throughout Marion County.
+                Protect your Washington property's infrastructure. Our Puyallup-based team provides technical, master-grade solutions for whole-home repiping and system restoration throughout Pierce County.
               </p>
 
               <div className="space-y-8">
@@ -37,8 +37,8 @@ const Contact = () => {
                     <ShieldCheck className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">OREGON LICENSED</p>
-                    <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Marion County Certified</p>
+                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">WASHINGTON LICENSED</p>
+                    <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Pierce County Certified</p>
                   </div>
                 </div>
 
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Salem & Mid-Willamette</p>
+                    <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Puyallup & Pierce County</p>
                   </div>
                 </div>
               </div>
@@ -78,11 +78,11 @@ const Contact = () => {
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Required</label>
                   <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
-                    <option>Sewer Line Repair</option>
-                    <option>Trenchless Pipe Lining</option>
-                    <option>Sewer Camera Inspection</option>
-                    <option>Hydro Jetting Service</option>
-                    <option>Emergency Backup Service</option>
+                    <option>Copper Repiping</option>
+                    <option>PEX Installation</option>
+                    <option>Whole-Home System Restoration</option>
+                    <option>Technical Mapping</option>
+                    <option>Emergency Leak Service</option>
                   </select>
                 </div>
                 <div className="space-y-2">
@@ -90,14 +90,14 @@ const Contact = () => {
                   <textarea
                     rows={4}
                     className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium"
-                    placeholder="Describe your sewer or drainage concerns..."
+                    placeholder="Describe your plumbing or pipe concerns..."
                   ></textarea>
                 </div>
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest transition-all">
                   Get Technical Quote
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
-                  *24/7 Priority diagnostics for Salem property emergencies
+                  *24/7 Priority diagnostics for Puyallup property emergencies
                 </p>
               </form>
             </div>

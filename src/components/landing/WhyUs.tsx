@@ -6,15 +6,15 @@ const WhyUs = () => {
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gold-500 to-transparent opacity-50" />
 
       {/* Background Texture */}
-      <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1541604193435-2258789965d8?auto=format&fit=crop&q=80')] mix-blend-overlay pointer-events-none"></div>
+      <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80')] mix-blend-overlay pointer-events-none"></div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why Salem Trusts Our <span className="text-indigo-400">Sewer Experts</span>
+            Why Puyallup Trusts Our <span className="text-indigo-400">Repiping Experts</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Protecting Marion County homes with master-grade engineering. We specialize in advanced trenchless sewer line repair and rapid local support for Salem property owners.
+            Protecting Pierce County homes with master-grade pipe engineering. We specialize in advanced whole-home repiping and rapid local support for Puyallup property owners.
           </p>
         </div>
 
@@ -22,23 +22,23 @@ const WhyUs = () => {
           {[
             {
               icon: ShieldCheck,
-              title: "Clinical Precision",
-              description: "We utilize advanced fiber-optic diagnostics to identify sewer breaches with surgical accuracy, minimizing destructive digging on your Oregon property."
+              title: "Lifetime Durability",
+              description: "We utilize advanced L-type copper and Uponor PEX-A to ensure your new plumbing system lasts for decades under Washington's water conditions."
             },
             {
               icon: MapPin,
-              title: "Salem Local",
-              description: "Our teams are based in Marion County, meaning rapid response times when sewer backups and main line failures occur in the Salem area."
+              title: "Puyallup Local",
+              description: "Our teams are based in Pierce County, meaning rapid response times when pipe failures or water pressure issues occur in the Puyallup area."
             },
             {
               icon: Calendar,
-              title: "Trenchless Solutions",
-              description: "Modern pipe lining technologies that eliminate the need for heavy excavation, preserving your Salem landscaping and hardscaping."
+              title: "Rapid Completion",
+              description: "Modern staging and installation technologies that eliminate long-term disruption, often completing full house repiping in days, not weeks."
             },
             {
               icon: DollarSign,
-              title: "Transparent Pricing",
-              description: "Honest, detailed technical assessments. We provide clear scopes and upfront pricing for any necessary sewer main restoration projects."
+              title: "Transparent Value",
+              description: "Honest, detailed technical assessments. We provide clear scopes and upfront pricing for any necessary whole-home repiping projects."
             }
           ].map((feature, index) => (
             <div
@@ -58,9 +58,9 @@ const WhyUs = () => {
 
         <div className="mt-20 p-10 rounded-[3rem] bg-gradient-to-br from-indigo-600 to-indigo-800 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl shadow-indigo-900/40 transform hover:scale-[1.02] transition-transform duration-500">
           <div className="max-w-xl">
-            <h3 className="text-3xl font-bold text-white mb-4 uppercase tracking-tight">Sewer Crisis?</h3>
+            <h3 className="text-3xl font-bold text-white mb-4 uppercase tracking-tight">Plumbing Crisis?</h3>
             <p className="text-blue-50 text-lg font-medium opacity-90">
-              Don't wait for property damage. Our Salem specialist team is ready to restore your systems 24/7.
+              Don't wait for property damage. Our Puyallup specialist team is ready to restore your systems 24/7.
             </p>
           </div>
           <a

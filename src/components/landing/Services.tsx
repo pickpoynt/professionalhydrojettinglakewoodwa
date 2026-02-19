@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-indigo-600">Sewer Services</span>
+            Comprehensive <span className="text-indigo-600">Repiping Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Salem property owners trust us for master-grade sewer line engineering and precision main line restoration. We provide specialized care for Marion County.
+            Puyallup property owners trust us for master-grade whole-home repiping and precision system restoration. We provide specialized care for Pierce County.
           </p>
         </div>
 
@@ -17,26 +17,26 @@ const Services = () => {
           {[
             {
               icon: Zap,
-              title: "Trenchless Repair",
-              description: "We utilize CIPP lining technology to restore sewer mains from the inside out, avoiding the need for deep excavation in Salem neighborhoods.",
+              title: "Copper Repiping",
+              description: "We utilize premium L-type copper to restore your home's water distribution, ensuring maximum pressure and lifetime reliability in Puyallup.",
               link: "#contact"
             },
             {
               icon: Drill,
-              title: "Main Line Replacement",
-              description: "Specialized residential sewer line restoration that addresses collapsed or bellied pipes and prevents further property damage and sinkholes.",
+              title: "PEX-A Installation",
+              description: "Specialized residential PEX-A restoration that provides a flexible, freeze-resistant alternative for modern Washington home plumbing.",
               link: "#contact"
             },
             {
               icon: Camera,
-              title: "Digital Inspections",
-              description: "High-resolution sewer camera scans designed to identify structural fissures and root intrusions specifically in Oregon's diverse soil types.",
+              title: "System Diagnostics",
+              description: "Technical plumbing mapping designed to identify pipe degradation and structural compromises specifically in the Pacific Northwest area.",
               link: "#contact"
             },
             {
               icon: Waves,
-              title: "Hydro Jetting",
-              description: "High-velocity water scouring to eliminate stubborn obstructions and industrial-scale root blockages in Salem main lines.",
+              title: "Technical Mapping",
+              description: "High-precision layout engineering to ensure your new repiping system is optimized for flow and efficiency throughout your property.",
               link: "#contact"
             }
           ].map((service, index) => (

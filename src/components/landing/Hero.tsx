@@ -8,15 +8,21 @@ interface HeroProps {
   overlayImage?: string;
   phone?: string;
   badge?: string;
+  features?: { icon: any; text: string }[];
 }
 
 const Hero = ({
-  title = "SF Master Plumbing Pros",
-  subtitle = "Expert residential plumbing for San Francisco's historic and modern homes.",
-  image = "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80",
-  overlayImage = "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80",
+  title = "Puyallup Repiping Pros",
+  subtitle = "Expert residential repiping for Puyallup's historic and modern homes.",
+  image = "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
+  overlayImage = "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80",
   phone = "8777921410",
-  badge = "SF MASTER PLUMBING PROS"
+  badge = "PUYALLUP REPIPING PROS",
+  features = [
+    { icon: Locate, text: "Precision Mapping" },
+    { icon: ShieldCheck, text: "Pierce County Ready" },
+    { icon: Activity, text: "Technical Restoration" }
+  ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
 
@@ -66,24 +72,14 @@ const Hero = ({
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-12 border-t border-white/10 animate-fade-in-delay-3 uppercase tracking-widest text-[10px] font-bold">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
-                <Locate className="w-6 h-6 text-emerald-400" />
+            {features.map((feature, index) => (
+              <div key={index} className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
+                  <feature.icon className="w-6 h-6 text-emerald-400" />
+                </div>
+                <span className="text-white">{feature.text}</span>
               </div>
-              <span className="text-white">Precision Diagnostics</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
-                <ShieldCheck className="w-6 h-6 text-emerald-400" />
-              </div>
-              <span className="text-white">North County Ready</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
-                <Activity className="w-6 h-6 text-emerald-400" />
-              </div>
-              <span className="text-white">Acoustic Probing</span>
-            </div>
+            ))}
           </div>
         </div>
       </div>

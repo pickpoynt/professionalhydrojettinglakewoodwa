@@ -13,7 +13,7 @@ const FloatingCallButton = () => {
                     className="relative rounded-full w-16 h-16 bg-indigo-600 hover:bg-indigo-700 text-white shadow-2xl p-0 animate-bounce"
                     asChild
                 >
-                    <a href="tel:8777921410" aria-label="Call Salem Sewer Repair Pros">
+                    <a href="tel:8777921410" aria-label="Call Puyallup Repiping Pros">
                         <Phone className="w-8 h-8" />
                     </a>
                 </Button>
