@@ -9,7 +9,7 @@ const Services = () => {
             Comprehensive <span className="text-indigo-600">Slab Leak Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Southlake property owners trust us for master-grade electronic leak detection and precision foundation restoration. We provide specialized care for Tarrant County.
+            Turbeville property owners trust us for master-grade electronic leak detection and precision foundation restoration. We provide specialized care for Clarendon County.
           </p>
         </div>
 
@@ -18,7 +18,7 @@ const Services = () => {
             {
               icon: Zap,
               title: "Electronic Detection",
-              description: "We utilize advanced frequency triangulation to identify sub-slab water breaches with clinical accuracy, avoiding unnecessary excavation in Southlake homes.",
+              description: "We utilize advanced frequency triangulation to identify sub-slab water breaches with clinical accuracy, avoiding unnecessary excavation in Turbeville homes.",
               link: "#contact"
             },
             {
@@ -30,7 +30,7 @@ const Services = () => {
             {
               icon: Camera,
               title: "Thermal Scanning",
-              description: "High-resolution infrared diagnostics designed to identify hot water line breaks specifically under North Texas's unique geological conditions.",
+              description: "High-resolution infrared diagnostics designed to identify hot water line breaks specifically under South Carolina's unique geological conditions.",
               link: "#contact"
             },
             {

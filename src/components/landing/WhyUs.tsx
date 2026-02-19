@@ -7,7 +7,7 @@ const WhyUs = () => {
       {/* Dynamic Background with Technical Texture */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
+          src="/ultra-realistic-photo-of-a-licensed-plumber-perfor.jpeg"
           alt=""
           className="w-full h-full object-cover opacity-5 brightness-[0.2]"
         />
@@ -19,11 +19,11 @@ const WhyUs = () => {
           <div>
             <span className="text-indigo-400 font-bold tracking-widest uppercase text-sm mb-4 block">Unmatched Precision</span>
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-8 leading-tight uppercase tracking-tight">
-              Why Southlake Trusts <br />
+              Why Turbeville Trusts <br />
               <span className="text-indigo-500">Our Leak Experts</span>
             </h2>
             <p className="text-xl text-slate-300 mb-10 leading-relaxed font-light italic">
-              We bring master-grade engineering to every diagnostic bridge. Our team is dedicated to preserving Southlake property value through technical excellence and non-invasive sub-slab restoration.
+              We bring master-grade engineering to every diagnostic bridge. Our team is dedicated to preserving Turbeville property value through technical excellence and non-invasive sub-slab restoration.
             </p>
 
             <div className="grid gap-6">
@@ -34,18 +34,18 @@ const WhyUs = () => {
                   icon: Target
                 },
                 {
-                  title: "Southlake Local",
-                  description: "Based in the heart of Southlake, TX. We understand the specific soil shifting patterns that cause North Texas slab failures.",
+                  title: "Turbeville Local",
+                  description: "Based in the heart of Turbeville, SC. We understand the specific soil shifting patterns that cause Clarendon County slab failures.",
                   icon: MapPin
                 },
                 {
                   title: "Rapid Detection",
-                  description: "Emergency diagnostic teams deployed immediately across Tarrant County to stabilize critical foundation water breaches.",
+                  description: "Emergency diagnostic teams deployed immediately across Clarendon County to stabilize critical foundation water breaches.",
                   icon: Clock
                 },
                 {
                   title: "Technical Valve",
-                  description: "Master-level plumbing certification in Texas, ensuring all repairs meet the highest structural and municipal standards.",
+                  description: "Master-level plumbing certification in South Carolina, ensuring all repairs meet the highest structural and municipal standards.",
                   icon: ShieldCheck
                 }
               ].map((item, index) => (
@@ -65,8 +65,8 @@ const WhyUs = () => {
           <div className="relative">
             <div className="aspect-square rounded-[3rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl shadow-indigo-500/20 relative group">
               <img
-                src="/ultra-realistic-photo-of-a-professional-plumber-pe(1).jpeg"
-                alt="Southlake Electronic Leak Detection"
+                src="/ultra-realistic-photo-of-a-licensed-plumber-perfor(1).jpeg"
+                alt="Turbeville Electronic Leak Detection"
                 className="w-full h-full object-cover opacity-80 transition-all duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-indigo-900/10 group-hover:bg-transparent transition-all" />
@@ -76,7 +76,7 @@ const WhyUs = () => {
                 <h4 className="text-2xl font-bold text-white mb-4 uppercase tracking-tight leading-tight">Emergency Slab Scans</h4>
                 <div className="flex items-center gap-4">
                   <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold h-12 px-6 rounded-xl uppercase tracking-widest text-xs" asChild>
-                    <a href="tel:8777921410">Call Southlake Team</a>
+                    <a href="tel:8777921410">Call Turbeville Team</a>
                   </Button>
                 </div>
               </div>

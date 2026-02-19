@@ -11,12 +11,12 @@ const Footer = () => {
                 <Locate className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Southlake Slab Leak</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Turbeville Slab Leak</span>
                 <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Southlake's specialized slab leak diagnostic experts. We provide master-grade electronic leak detection and restoration across Tarrant County.
+              Turbeville's specialized slab leak diagnostic experts. We provide master-grade electronic leak detection and restoration across Clarendon County.
             </p>
           </div>
 
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  1400 Main St<br />
-                  Southlake, TX 76092
+                  Turbeville Main St<br />
+                  Turbeville, SC 29162
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Southlake Slab Leak Pros. All rights reserved. Tarrant County Plumbing Authorities.
+            © {new Date().getFullYear()} Turbeville Slab Leak Pros. All rights reserved. Clarendon County Plumbing Authorities.
           </p>
         </div>
       </div>
@@ -81,22 +81,22 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Southlake Slab Leak Pros",
+          "name": "Turbeville Slab Leak Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "1400 Main St",
-            "addressLocality": "Southlake",
-            "addressRegion": "TX",
-            "postalCode": "76092",
+            "streetAddress": "Turbeville Main St",
+            "addressLocality": "Turbeville",
+            "addressRegion": "SC",
+            "postalCode": "29162",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "32.9461",
-            "longitude": "-97.1350"
+            "latitude": "33.8893",
+            "longitude": "-80.0165"
           },
           "telephone": "+18777921410",
-          "url": "https://slab-leak-repair-southlake-tx.com/"
+          "url": "https://slab-leak-repair-turbeville.com/"
         })}
       </script>
     </footer>

@@ -7,19 +7,19 @@ import {
 
 const faqs = [
   {
-    question: "Do you offer emergency slab leak detection in Southlake?",
-    answer: "Yes. Our Southlake teams are available for technical foundation diagnostics and localized restoration. We provide rapid support across Tarrant County and North Texas to stabilize your property."
+    question: "Do you offer emergency slab leak detection in Turbeville?",
+    answer: "Yes. Our Turbeville teams are available for technical foundation diagnostics and localized restoration. We provide rapid support across Clarendon County and the Santee region to stabilize your property."
   },
   {
-    question: "What are the signs of a slab leak in Southlake homes?",
+    question: "What are the signs of a slab leak in Turbeville homes?",
     answer: "Common signs include unexplained increases in water bills, warm spots on flooring (especially under tile or wood), the sound of running water when faucets are off, and cracks in foundation walls."
   },
   {
-    question: "Are your technicians licensed for Texas plumbing projects?",
-    answer: "Absolutely. Our technicians are fully licensed Texas State Master Plumbers and slab leak specialists who adhere strictly to Texas building codes and Southlake municipal standards."
+    question: "Are your technicians licensed for South Carolina plumbing projects?",
+    answer: "Absolutely. Our technicians are fully licensed South Carolina Master Plumbers and slab leak specialists who adhere strictly to SC building codes and Turbeville municipal standards."
   },
   {
-    question: "How long does a typical slab leak repair in Southlake take?",
+    question: "How long does a typical slab leak repair in Turbeville take?",
     answer: "Most slab leak diagnostics and repairs can be completed in 1 to 2 days, depending on the complexity and location. We focus on non-invasive technical results to minimize disruption."
   }
 ];
@@ -31,10 +31,10 @@ const FAQ = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Common Questions</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Southlake <span className="text-indigo-600">FAQ</span>
+            Turbeville <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Answers to common questions about electronic slab leak detection and foundation restoration in Southlake, Texas.
+            Answers to common questions about electronic slab leak detection and foundation restoration in Turbeville, South Carolina.
           </p>
         </div>
 

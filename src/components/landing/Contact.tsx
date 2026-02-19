@@ -8,13 +8,13 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            SOUTHLAKE SLAB LEAK PROS
+            TURBEVILLE SLAB LEAK PROS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Schedule <span className="text-indigo-600">Southlake Diagnostic</span>
+            Schedule <span className="text-indigo-600">Turbeville Diagnostic</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Protect your Texas property's infrastructure. Our Southlake-based team provides technical, master-grade solutions for electronic slab leak detection and foundation pipe restoration throughout Tarrant County.
+            Protect your South Carolina property's infrastructure. Our Turbeville-based team provides technical, master-grade solutions for electronic slab leak detection and foundation pipe restoration throughout Clarendon County.
           </p>
 
           <div className="space-y-8">
@@ -35,8 +35,8 @@ const Contact = () => {
                 <ShieldCheck className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">TEXAS LICENSED</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Tarrant County Certified</p>
+                <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">SC LICENSED</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Clarendon County Certified</p>
               </div>
             </div>
 
@@ -46,7 +46,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Service Area</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Southlake & Tarrant County</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Turbeville & Clarendon County</p>
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ const Contact = () => {
               Get Technical Quote
             </Button>
             <p className="text-center text-slate-500 text-sm italic font-medium">
-              *24/7 Priority diagnostics for Southlake property emergencies
+              *24/7 Priority diagnostics for Turbeville property emergencies
             </p>
           </form>
         </div>
